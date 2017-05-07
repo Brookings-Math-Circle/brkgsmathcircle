@@ -1,3 +1,7 @@
+---
+redirect_to: "http://sites.google.com/view/brookingsmathcircle/"
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Nepaltechguy2/brkgsmathcircle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
