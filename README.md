@@ -1,6 +1,5 @@
----
-redirect_to: "http://google.com"
----
+<meta http-equiv="refresh" content="0; url=http://konradpodgorski.com/blog/2013/10/21/how-i-migrated-my-blog-from-wordpress-to-octopress/">
+<link rel="canonical" href="http://konradpodgorski.com/blog/2013/10/21/how-i-migrated-my-blog-from-wordpress-to-octopress/" />'
 
 ## Welcome to the Brookings Math Circle (new) Website!
 
