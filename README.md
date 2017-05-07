@@ -1,5 +1,5 @@
 ---
-redirect_to: "google.com"
+redirect_to: "http://google.com"
 ---
 
 ## Welcome to the Brookings Math Circle (new) Website!
