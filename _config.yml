@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: Redirecting....
 ---
-redirect_to: "http://example.com"
+redirect_to: "http://sites.google.com/view/brookingsmathcircle/"
 ---
 gems:
   - jekyll-redirect-from
