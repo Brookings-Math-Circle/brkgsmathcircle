@@ -1,5 +1,3 @@
-<meta http-equiv="refresh" content="0; url=http://sites.google.com/view/brookingsmathcircle">
-<link rel="canonical" href="http://sites.google.com/view/brookingsmathcircle" />
 
 ## Welcome to the Brookings Math Circle (new) Website!
 
