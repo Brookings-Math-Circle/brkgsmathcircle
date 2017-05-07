@@ -1,3 +1,7 @@
+---
+redirect_to: "google.com"
+---
+
 ## Welcome to the Brookings Math Circle (new) Website!
 
 Unfortunately, this website is under construction. You should be redirected to the old website in a matter of seconds. 
