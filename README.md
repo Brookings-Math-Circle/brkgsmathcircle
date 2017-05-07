@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to the Brookings Math Circle (new) Website!
 
----Testing----
+Unfortunately, this website is under construction. You should be redirected to the old website in a matter of seconds. 
 
-You can use the [editor on GitHub](https://github.com/Nepaltechguy2/brkgsmathcircle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website is open sourced via the [editor on GitHub](https://github.com/Nepaltechguy2/brkgsmathcircle/edit/master/README.md).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
