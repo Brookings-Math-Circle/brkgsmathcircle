@@ -2,27 +2,19 @@
 Everything notable that is changed should be placed in this file. This applies to everything that happens
 in the website, including the LaTeX template, the old website, and the software used to run it. 
 
-T refers to the LaTeX Template 
-
-W refers to the old website
-
-NW refers to this website
-
-O refers to other
-
 ------------------------------------------
 ## [Unreleased] - The Unknown Update
 ### Added
-T+Publicize LaTeX Template
+- Publicize LaTeX Template
 ### Changes
-T-Bug in LaTeX
-NW-Better redirecting
+- Bug in LaTeX
+- Better redirecting
 
 ------------------------------------------
 
 ## [1.0.0] - The Released Rats
-#### 05-27-2017 
+#### 2017 - 05 - 27
 ### Added
-W+Redirect to the G Site (for now)
-NW+Finalize old website
-NW+Added Changelog
+- Redirect to the G Site (for now)
+- Finalize old website
+- Added Changelog
