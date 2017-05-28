@@ -6,6 +6,7 @@ in the website, including the LaTeX template, the old website, and the software 
 ## [Unreleased] - The Unknown Update
 ### Added
 - Publicize LaTeX Template
+
 ### Changes
 - Bug in LaTeX
 - Better redirecting
