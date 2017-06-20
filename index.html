@@ -13,21 +13,3 @@
 </script>
 
 <head><meta name="google-site-verification" content="3PaNyP2aTCB80UksKaa44tI8MTWhIa6TeP29LopEr1w" /></head>
-<script type="text/javascript" src="http://l2.io/ip.js?var=userip"></script>
-<script language="Javascript">
-function preloadFunc()
-{
-var ip = userip;
-var bannedips=[
- "129.110.241.54", 
-]
-var handleips=bannedips.join("|")
-handleips=new RegExp(handleips, "i")
-
-if (ip.search(handleips)!=-1){ 
-window.location.replace("http://aops.com");
-document.write('<!--');
-}
-}
-window.onpaint = preloadFunc();
-</script>
