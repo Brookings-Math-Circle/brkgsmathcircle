@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          USE THE FOLLOWING PREAMBLE              %%
+%%                                                  %%
+%%  Made by Samyok Nepal                            %%
+%%  For all math-y papers                           %%
+%%  Version Wkst.DragonSinger.sub                   %%
+%%                                                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%      Doc Class:
+\documentclass[main.tex]{subfiles}
+
+%%      Packages:         
+\usepackage{samyokStyles}
+%%      Images Folder
+\graphicspath{ {img/} }
+
+\begin{document}
+
+\end{document}
