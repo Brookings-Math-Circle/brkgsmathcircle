@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%          USE THE FOLLOWING PREAMBLE              %%
+%%                                                  %%
+%%  COPYRIGHT (c) 2017 Samyok Nepal                 %%
+%%  Version 1.2.1--The Asmptote Update              %%
+%%  For all math-y Handouts                         %%
+%%  Version Wkst.Fibonacci.Alpha.main               %%
+%%  Follow the instructions!!                       %%
+%%                                                  %%
+%%  Do not change the following lines:              %%
+\documentclass{article}                             %%
+%% Go down until you see the green instructions.    %%
+%%                                                  %%
+%% (like this)                                      %%
+\usepackage{samyokStyles} %% Custom-made package    %%
+\newcommand{\Name}{\textbf{{%%                      %%
+%%  Change the below name to change the title:      %%
+[[Insert Title Here]]
+%%  Great! Do not change this line:                 %%
+}}} \newcommand{\Author}{%                          
+%%  but change this line for the Author's name:     %%
+Samyok Nepal
+%%  but not this line!                              %%
+} \newcommand{\Date}{%                              %%
+%%  Replace the \today with any other date, if you want today, leave it:
+\today
+%%  Great work!! (don't delete the following line, either :P)
+} \graphicspath{ {%%                                %%
+%%  Below, change the line to whatever folder path your images are in. If you have this downloaded, leave it. 
+img/
+%%  leave this line!                                %%
+}}                                                  %%
+%%                                                  %%
+%%              ---END PREAMBLE---                  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  This line is extremely important. Do not touch! 
+\begin{document}                                    
+%  These following lines are nice to have, but change them if you know what you are doing. 
+\begin{center} \thispagestyle{empty} \bmclogo{.3}~ \Huge \Name \bmclogo{.3} \normalsize $$$$ \Author--\Date  \end{center}
+%  Now the following parts are just for showing off. Delete everything! (after reading through, of course)
+
+% If you plan on having multiple files compiled, use the following command multiple times, once for every document. Include files in the tex folder.
+\subimport{tex/}{Section0.tex}
+\subimport{tex/}{Section1.tex}
+
+
+% Change the size in the brackets if you so wish
+\centering \BMClogo{0.4}
+
+%  VERY IMPORTANT--DO NOT TOUCH %
+\end{document}
