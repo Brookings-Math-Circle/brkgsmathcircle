@@ -3,7 +3,7 @@
 %%  COPYRIGHT (c) 2017 Samyok Nepal                 %%
 %%  LICENSE CAN BE FOUND IN THE LICENSE.txt FILE    %%
 %%                                                  %%
-%%   Version The Sarcasm Update.sty                 %%
+%%   Version The SarcasticSolution.sty              %%
 %%                                                  %%
 %%                                                  %%
 \ProvidesPackage{samyokStyles}
@@ -59,6 +59,9 @@
 % BMC Logos
 \newcommand{\bmclogo}[1]{\includegraphics[scale= #1]{smallBMC.jpg}}
 \newcommand{\BMClogo}[1]{\includegraphics[scale= #1]{BigBMC.png}}
+\newcommand{\Solution}[1]{\textbf{Solution \ref{th:#1}:}}
+\newcommand{\solution}[1]{\textbf{Solution \ref{#1}:}}
+
 
 % Custom Box \/  \/  \/  \/  \/  \/  \/  \/  \/  \/  \/  
 \tcbuselibrary{theorems}
