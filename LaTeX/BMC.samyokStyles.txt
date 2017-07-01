@@ -3,7 +3,8 @@
 %%  COPYRIGHT (c) 2017 Samyok Nepal                 %%
 %%  LICENSE CAN BE FOUND IN THE LICENSE.txt FILE    %%
 %%                                                  %%
-%%   Version The OrganizedSolution.sty              %%
+%%   Version The OrganizedStarsYay.sty              %%
+%%   Last Updated: 6/30/17 at 7:42 CST              %%
 %%                                                  %%
 %%                                                  %%
 \ProvidesPackage{samyokStyles}                      %%
@@ -26,7 +27,7 @@
 \usepackage{lastpage}
 \usepackage{lipsum}
 \usepackage{marginnote} \reversemarginpar
-\usepackage{anyfontsize}
+\usepackage{multido}
 \usepackage{setspace} \onehalfspacing
 \usepackage[subpreambles=true]{standalone}
 \usepackage{subfiles}
@@ -48,6 +49,10 @@
     % Misc.
         \renewcommand{\qedsymbol}{$\blacksquare$} 
         \newcommand{\sarcasm}{\em}
+    % Stars
+        \newcommand{\Repeat}{\multido{\i=1+1}}
+        \newcommand{\difficulty}[1]{\huge \hspace{\fill}  \Repeat{#1}{ \boldmath $\star$ \unboldmath}}
+        \newcommand{\diff}[1]{\difficulty{#1}}
 
 
 
