@@ -3,8 +3,8 @@
 %%  COPYRIGHT (c) 2017 Samyok Nepal                 %%
 %%  LICENSE CAN BE FOUND IN THE LICENSE.txt FILE    %%
 %%                                                  %%
-%%   Version The OrganizedStarsYay.sty              %%
-%%   Last Updated: 6/30/17 at 7:42 CST              %%
+%%   Version The New Copyright BMC.sty              %%
+%%   Last Updated: 7/07/17 at 4:04 CST              %%
 %%                                                  %%
 %%                                                  %%
 \ProvidesPackage{samyokStyles}                      %%
@@ -53,7 +53,8 @@
         \newcommand{\Repeat}{\multido{\i=1+1}}
         \newcommand{\difficulty}[1]{\huge \hspace{\fill}  \Repeat{#1}{ \boldmath $\star$ \unboldmath}}
         \newcommand{\diff}[1]{\difficulty{#1}}
-
+    % Copyright
+    \newcommand{\copyrightBMC}[2]{\vspace{#1}\centering \BMClogo{#2} \\ COPYRIGHT \copyright~2017 Brookings Math Circle. License can be found at \url{http://brookingsmath.me/LaTeX/license.html}.}    
 
 
 % Big numbers before sections
