@@ -2,7 +2,7 @@
 %%          USE THE FOLLOWING PREAMBLE              %%
 %%                                                  %%
 %%  COPYRIGHT (c) 2017 Samyok Nepal                 %%
-%%  Version 1.2.1--The Asmptote Update              %%
+%%                                                  %%
 %%  For all math-y Handouts                         %%
 %%  Version Wkst.Fibonacci.Alpha.main               %%
 %%  Follow the instructions!!                       %%
@@ -45,8 +45,8 @@ img/
 \subimport{tex/}{Section1.tex}
 
 
-% Change the size in the brackets if you so wish
-\centering \BMClogo{0.4}
+% Argument 1 is the vertical space, and argument 2 is the size of the logo. 
+\copyrightBMC{0.5in}{0.4}
 
 %  VERY IMPORTANT--DO NOT TOUCH %
 \end{document}
