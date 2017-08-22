@@ -1,0 +1,13 @@
+footer {
+	padding: 10px;
+	color: white;
+	background-color: #a5a5a5;
+	width: 100%;
+	height: auto;
+	font-family: 'PT Sans'; font-size: .75em;
+	text-align: center;
+}
+#column-header {
+	margin:0;
+	font-size: 1em;
+}

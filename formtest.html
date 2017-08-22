@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>	
+    <title>Contact Us!</title>
+</head>
+
+<body>
+<ul>
+  <li class="left"><a class="title" href="index.html">Brookings Math Circle</a></li>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="formtest.html">Form</a></li>
+  <li><a href="aops.html">AoPS Forum</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+  <h2 class="center">Contact Us!</h2>
+  <aside>
+       <p>
+           We would <em>love</em> to hear from you! </p>
+           <p>Please use the <b><em>Contact Form</em></b> below
+           to send us a message.
+       </p>
+   </aside>
+
+<!-- START HERE -->
+   <!-- Style The Contact Form How Ever You Prefer -->
+<div id="form1"> 
+ <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxIWBeUYsSuS83FFxWCKzPQmLl-bi3P_GFnLTt1vWL7si5_8Mo/exec">
+
+    
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name"/>
+    
+
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10"></textarea>
+    
+
+    
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    
+
+    
+      <label for="color">Favourite Color: </label>
+      <input id="color" name="color" />
+    
+
+    <div class="center"><button class="button redbutton">Send</button></div>
+
+  </form>
+</div>
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+
+</body>
+</html>
